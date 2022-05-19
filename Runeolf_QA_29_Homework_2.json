@@ -112,6 +112,7 @@
 							"\r",
 							"pm.test(\"Вывести в консоль параметр family из response\", function(){\r",
 							"let family1 = _.map(jsonData.family);\r",
+							"console.log(family1);\r",
 							"});\r",
 							"\r",
 							"pm.test(\"Проверить что u_salary_1_5_year в ответе равно salary*4\", function(){\r",
